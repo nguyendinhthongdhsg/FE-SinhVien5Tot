@@ -1,0 +1,36 @@
+.NopHoSoF-content {
+    padding: 20px 2%;
+}
+
+.NopHoSoF-content > div {
+    margin: 10px 0;
+}
+
+.NopHoSoF-toolbar {
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    gap: 10px;
+    align-items: center;
+}
+
+.NopHoSoF-toolbar > button {
+    padding: 10px;
+    border-radius: 4px;
+    flex: 1;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NopHoSoF-toolbar > button.active {
+    background-color: var(--primary-color-1);
+    color: #000;
+}
+
+.NopHoSoF-toolbar > button:hover {
+    color: #000;
+    background-color: var(--primary-color-1);
+}

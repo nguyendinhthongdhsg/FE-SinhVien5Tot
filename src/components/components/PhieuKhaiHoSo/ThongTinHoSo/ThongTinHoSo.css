@@ -1,0 +1,64 @@
+.ThongTinHoSo {
+    width: 100%;
+}
+
+.ThongTinHoSo-content {
+    width: 100%;
+    display: flex;
+    gap: 2%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.ThongTinHoSo-content > div {
+    flex: 1;
+}
+
+.ThongTinHoSo-XemThongTinChiTiet {
+    text-align: end;
+}
+
+.ThongTinHoSo-XemThongTinChiTiet > button {
+    width: 100px;
+    color: #333;
+}
+
+.ThongTinHoSo-XemThongTinChiTiet > button:hover {
+    width: 100px;
+    color: #000;
+    background-color: var(--primary-color-1);
+}
+
+.ThongTinHoSo-model {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00000030;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    padding: var(--height-header) 0px;
+}
+
+.ThongTinHoSo-model-content {
+    background-color: var(--primary-color-2);
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    overflow-y: scroll;
+    box-shadow: 2px 2px 4px 0px #00000030;
+}
+
+.ThongTinHoSo-model-content > div{
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .ThongTinHoSo-model-content {
+        width: 80%;
+    }
+}

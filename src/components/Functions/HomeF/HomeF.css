@@ -1,0 +1,90 @@
+.HomeF {
+    color: #000;
+}
+
+.HomeF-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.HomeF-content > div {
+    width: 60%;
+    min-height: 60px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    margin: 20px 0;
+}
+
+.HomeF-content > div > button {
+    width: 100%;
+    min-height: 60px;
+    height: unset;
+    padding: 0 10px;
+}
+
+.HomeF-content > div > div {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 102%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    z-index: -1;
+}
+
+.HomeF-ThongBao > button {
+    background-color: #9FE1E1;
+}
+.HomeF-BoTieuChuan > button {
+    background-color: #9FE1C9;
+}
+.HomeF-ThanhTich {
+    background-color: #ffffff;
+}
+.HomeF-NopHoSo > button {
+    background-color: #9FE1C9;
+}
+
+.HomeF-ThongBao > div {
+    background-color: #9FE1E1;
+}
+
+.HomeF-BoTieuChuan > div {
+    background-color: #9FE1C9;
+}
+
+.HomeF-ThanhTich > div {
+    background-color: #9FE1E1;
+}
+.HomeF-NopHoSo > div{
+    background-color: #9FE1C9;
+}
+
+.HomeF-content >  .HomeF-ThanhTich {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.HomeF-content > .HomeF-ThanhTich > a {
+    width: 49%;
+    background-color: #9FE1E1;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .HomeF-content > div {
+        width: 98%;
+    }
+}

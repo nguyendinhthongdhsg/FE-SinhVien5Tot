@@ -1,0 +1,9 @@
+.ThongBaoXetF {
+    height: 100vh;
+    padding: 20px 2%;
+    margin: 20px 0;
+}
+
+.ThongBaoXetF > h3 {
+    text-align: justify;
+}

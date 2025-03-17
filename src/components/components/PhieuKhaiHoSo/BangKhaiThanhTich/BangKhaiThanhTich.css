@@ -1,0 +1,93 @@
+.BangKhaiThanhTich-table {
+  width: 100%; /* Đặt chiều rộng bảng 100% */
+  border-collapse: collapse; /* Gộp các đường viền */
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.BangKhaiThanhTich-table th,
+.BangKhaiThanhTich-table td {
+  border: 1px solid #ddd; /* Đường viền cho các ô */
+  padding: 4px; /* Đệm cho các ô */
+  text-align: center; /* Căn trái nội dung trong ô */
+}
+
+.BangKhaiThanhTich-table th {
+  background-color: var(--primary-color-1); /* Màu nền cho tiêu đề */
+  color: white; /* Màu chữ cho tiêu đề */
+}
+
+.BangKhaiThanhTich-table tr {
+  background-color: #ffffff; /* Màu nền cho hàng chẵn */
+}
+
+.BangKhaiThanhTich-table tr:hover {
+  background-color: #fff; /* Không đổi màu khi hover */
+}
+
+.BangKhaiThanhTich-table tr td:nth-child(2) {
+  text-align: left;
+}
+
+.BangKhaiThanhTich-table tr td:nth-child(5) {
+  text-align: left;
+}
+
+.BangKhaiThanhTich-table tr td.left {
+  text-align: left;
+}
+
+.BangKhaiThanhTich-table tr td.center {
+  text-align: center;
+}
+
+.BangKhaiThanhTich-table tr td.right {
+  text-align: right;
+}
+
+.BangKhaiThanhTich-table tr.bo-tieu-chuan {
+  background-color: var(--primary-color-2);
+  font-weight: bold;
+}
+
+.BangKhaiThanhTich-table tr td.input > input {
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid #333;
+  font-size: 1rem;
+  height: unset;
+  padding: 0 2px;
+}
+
+.BangKhaiThanhTich-table tr td.checkbox > input{
+  width: 20px;
+}
+
+.BangKhaiThanhTich-table tr td.upload,  
+.BangKhaiThanhTich-table tr td.checkbox > input{
+  cursor: pointer;
+}
+
+.BangKhaiThanhTich-table tr td.upload:hover {
+  background-color: var(--primary-color-3);
+}
+
+.BangKhaiThanhTich-save {
+  margin-top: 20px;
+  justify-items: end;
+}
+
+.BangKhaiThanhTich-save > button {
+  padding: 10px 40px;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.BangKhaiThanhTich-save > button:hover {
+  background-color: var(--primary-color-1);
+  color: #000;
+}

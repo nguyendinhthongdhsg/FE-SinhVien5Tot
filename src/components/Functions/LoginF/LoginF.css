@@ -1,0 +1,164 @@
+.LoginF {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.LoginF-left {
+    height: 100%;
+    padding: 2%;
+}
+
+.LoginF-left>img {
+    height: 100%;
+    border-radius: 8px;
+}
+
+.LoginF-right {
+    flex: 1;
+    height: 100%;
+    border-radius: 12px;
+    padding: 2%;
+    padding-left: 0;
+}
+
+.LoginF-right-background {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #E1EDED 0%, #B4EAEA 100%);
+    border-radius: 8px;
+    padding: 4%;
+}
+
+.LoginF-form-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color-2);
+    border-radius: 8px;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginF-form-header-desktop>h3 {
+    color: #0070B9;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 1.4rem;
+}
+
+.LoginF-form-header-mobile {
+    display: none;
+}
+
+.LoginF-form-content > form {
+    margin: 10px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.LoginF-form-content > form > h2 {
+    text-align: center;
+}
+
+.LoginF-form-content > form > input {
+    margin: 10px 0;
+}
+
+.LoginF-form-content > form > button {
+    background-color: var(--primary-color-4);
+    margin: 10px 0;
+    color: #0070B9;
+}
+
+.LoginF-form-content > form > button:hover {
+    background-color: var(--primary-color-3);
+}
+
+.LoginF-form-quenmatkhau {
+    text-align: end;
+}
+
+.LoginF-form-quenmatkhau > a {
+    color: #EB1C22;
+    text-decoration: underline;
+}
+
+.LoginF-form-dangky > a {
+    color: #363DA3;
+    text-decoration: underline;
+}
+
+@media (max-width: 1233px) {
+    .LoginF-form-wrapper {
+        padding: 2%;
+    }
+
+    .LoginF-form-content {
+        width: 100%;
+    }
+
+    .LoginF-form-header-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .LoginF-form-header-desktop {
+        display: none;
+    }
+
+    .LoginF-form-header-mobile > h3 {
+        color: #0070B9;
+        text-align: center;
+        font-family: Kanit;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 876px) {
+    .LoginF {
+        flex-direction: column;
+        height: unset;
+    }
+
+    .LoginF-left {
+        width: 100%;
+    }
+    
+    .LoginF-left>img {
+        width: 100%;
+    }
+
+    .LoginF-right {
+        width: 100%;
+        padding-left: 2%;
+    }
+
+    .LoginF-form-wrapper {
+        padding: 2%;
+    }
+
+    .LoginF-form-content {
+        width: 100%;
+    }
+
+    .LoginF-form-header-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .LoginF-form-header-desktop {
+        display: none;
+    }
+
+    .LoginF-form-header-mobile > h3 {
+        color: #0070B9;
+        text-align: center;
+        font-family: Kanit;
+        font-size: 1.2rem;
+    }
+}

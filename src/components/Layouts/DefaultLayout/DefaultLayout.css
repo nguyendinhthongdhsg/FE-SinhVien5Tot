@@ -1,0 +1,9 @@
+.DefaultLayout_Main {
+    margin-top: var(--height-header);
+}
+
+@media (max-width: 768px) {
+    .DefaultLayout_Main {
+        margin-top: calc(var(--height-header) + 60px);
+    }
+}

@@ -1,0 +1,14 @@
+.ThongTinCaNhanF {
+    justify-items: center;
+}
+
+.ThongTinCaNhanF-content {
+    width: 60%;
+    padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .ThongTinCaNhanF-content {
+        width: 98%;
+    }
+}

@@ -1,0 +1,169 @@
+.RegisterF {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.RegisterF-left {
+    height: 100%;
+    padding: 2%;
+}
+
+.RegisterF-left>img {
+    height: 100%;
+    border-radius: 8px;
+}
+
+.RegisterF-right {
+    flex: 1;
+    height: 100%;
+    border-radius: 12px;
+    padding: 2%;
+    padding-left: 0;
+}
+
+.RegisterF-right-background {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #E1EDED 0%, #B4EAEA 100%);
+    border-radius: 8px;
+    padding: 4%;
+}
+
+.RegisterF-form-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color-2);
+    border-radius: 8px;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegisterF-form-header-desktop>h3 {
+    color: #0070B9;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 1.4rem;
+}
+
+.RegisterF-form-header-mobile {
+    display: none;
+}
+
+.RegisterF-form-content > form {
+    margin: 10px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.RegisterF-form-content > form > h2 {
+    text-align: center;
+}
+
+.RegisterF-form-content > form > input {
+    margin: 10px 0;
+    height: 30px;
+}
+
+.RegisterF-form-content > form > button {
+    background-color: var(--primary-color-4);
+    margin: 10px 0;
+    color: #0070B9;
+}
+
+.RegisterF-form-content > form > button:hover {
+    background-color: var(--primary-color-3);
+}
+
+.RegisterF-form-quenmatkhau {
+    text-align: end;
+}
+
+.RegisterF-form-quenmatkhau > a {
+    color: #EB1C22;
+    text-decoration: underline;
+}
+
+.RegisterF-form-dangnhap > a {
+    color: #363DA3;
+    text-decoration: underline;
+}
+
+@media (max-width: 1233px) {
+    .RegisterF {
+        height: 100vh;    
+    }
+
+    .RegisterF-form-wrapper {
+        padding: 2%;
+    }
+
+    .RegisterF-form-content {
+        width: 100%;
+    }
+
+    .RegisterF-form-header-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .RegisterF-form-header-desktop {
+        display: none;
+    }
+
+    .RegisterF-form-header-mobile > h3 {
+        color: #0070B9;
+        text-align: center;
+        font-family: Kanit;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 895px) {
+    .RegisterF {
+        flex-direction: column;
+        height: unset;
+    }
+
+    .RegisterF-left {
+        width: 100%;
+    }
+    
+    .RegisterF-left>img {
+        width: 100%;
+    }
+
+    .RegisterF-right {
+        width: 100%;
+        padding-left: 2%;
+    }
+
+    .RegisterF-form-wrapper {
+        padding: 2%;
+    }
+
+    .RegisterF-form-content {
+        width: 100%;
+    }
+
+    .RegisterF-form-header-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .RegisterF-form-header-desktop {
+        display: none;
+    }
+
+    .RegisterF-form-header-mobile > h3 {
+        color: #0070B9;
+        text-align: center;
+        font-family: Kanit;
+        font-size: 1.2rem;
+    }
+}

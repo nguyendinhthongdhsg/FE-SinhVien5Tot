@@ -1,0 +1,9 @@
+.BoTieuChuanF {
+    height: 100vh;
+    padding: 20px 2%;
+    margin: 20px 0;
+}
+
+.BoTieuChuanF > h3 {
+    text-align: justify;
+}
